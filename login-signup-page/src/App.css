@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.signup-form {
+  background-color: #1f1f39;
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+.form {
+  margin-top: 15px;
+}
+
+.form-text {
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-text h2 {
+  color: white;
+}
+
+.form-text span {
+  color: #9b9bb5;
+}
+
+.main {
+  background-color: #2f2f42;
+  width: 25%;
+  margin: auto;
+  padding-left: 25px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  color: #858597;
+}
+
+.input {
+  background-color: #3e3e55;
+  color: white;
+  padding: 15px 10px 15px 10px;
+  border-radius: 10px;
+  width: 86%;
+  border: 1px solid #3e3e55;
+  margin-top: 5px;
+}
+
+.but {
+  background-color: #3d5cff;
+  padding: 15px 15px 15px 15px;
+  width: 250px;
+  border: none;
+  color: white;
+  font-size: larger;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.but:hover {
+  cursor: pointer;
+  background-color: #1f1f39;
+
+}
+
+.butter {
+  margin: auto;
+  width: 80%;
+}
+
+.account {
+  display: flex;
+  justify-content: space-between;
+  width: 73%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.account span {
+  color: #858597;
+}
+
+.accounts p {
+  color: #3d5cff;
+  text-decoration: underline;
+}
+
+.aaoo {
+  color: #3d5cff;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 1203px) {
+  .main {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width:1000px) {
+  .main {
+    width: 37%;
+
+  }
+}
+
+@media screen and (max-width:780px) {
+  .main {
+    width: 43%;
+
+  }
+}
+
+@media screen and (max-width:685px) {
+  .main {
+    width: 50%;
+
+  }
+}
+
+@media screen and (max-width:577px) {
+  .main {
+    width: 58%;
+
+  }
+}
+
+@media screen and (max-width:485px) {
+  .main {
+    width: 65%;
+
+  }
+
+  .butter {
+    width: 77%;
+
+
+  }
+
+  .but {
+    width: 226px;
+
+  }
+}
+
+@media screen and (max-width:415px) {
+  .main {
+    width: 85%;
+
+  }
+}
+
+@media screen and (max-width:325px) {
+  .but {
+    width: 191px;
+
+  }
+}
